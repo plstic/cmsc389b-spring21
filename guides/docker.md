@@ -14,6 +14,7 @@ docker` to install. Arch users can just run `sudo pacman -S docker`. For others
 or if the usual install does mthod does not work you can check 
 ![the documentation](https://hub.docker.com/search?q=&type=edition&offering=community&operating_system=linux).
 
+__this may change, will be confirmed first Friday of the semester__
 Once docker is installed, you need to download the OS we will be using in this 
 class, arch linux. You can do that by running `sudo docker pull archlinux`
 

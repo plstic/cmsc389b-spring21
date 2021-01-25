@@ -32,10 +32,10 @@ Timings may be dynamic, and will be updated regularly on the Canvas course page.
 We will utilize a handful of services for this course:
 | **Service**    | **Purpose** | **link**     |
 | :------------- | :---------- | :----------- |
-| Canvas      | announcements, grades | <https://umd.instructure.com/courses/1286199> |
-| Panopto     | lecture videos | <https://umd.instructure.com/courses/1286199/external_tools/28827> |
-| GitHub      | syllabus, notes, assignments, exams | <https://github.com/plstic/cmsc389b-spring2021> |
-| Gradescope  | submission of completed work | <https://www.gradescope.com/courses/172268/> |
+| Canvas      | announcements, grades | <https://umd.instructure.com/courses/1302555> |
+| Panopto     | lecture videos | <https://umd.instructure.com/courses/1302555/external_tools/28827> |
+| GitHub      | syllabus, notes, assignments, exams | <https://github.com/plstic/cmsc389b-spring21> |
+| Gradescope  | submission of completed work | <https://www.gradescope.com/courses/237145/> |
 
 Additionally, we are endorsing [Docker](https://www.docker.com/) and [VSCode](https://code.visualstudio.com/) for this course.
 We strongly recommend that you use both (industry-standard) applications to complete your assignments.
@@ -46,21 +46,21 @@ We intend to offer written and video tutorials for both git and Docker.
 |  Week | Topic (link to notes) | Language (link to project) | Etc (links to quiz/exam sample) |
 |:-----:|---------------------------------------------------------|------------------------------|------------|
 | 01-29 | [Introduction/Syllabus](notes/00-intro.md)              | --                           |            |
-| 02-05 | [Procedural Languages](notes/01-procedural.md)          | [COBOL](projects/cobol)      |            |
-| 02-12 | [REPL/Scripting](notes/02-scripting.md)                 | [Lua](projects/lua)          |            |
-| 02-19 | [Logic languages](notes/03-logic.md)                    | [Prolog](projects/prolog)    |            |
-| 02-26 | [Stack-based language](notes/04-stack.md)               | [Forth](projects/forth)      |            |
-| 03-05 | [Array programming](notes/05-array.md)                  | [J](projects/j)              |            |
-| 03-12 | [Security](notes/06-security.md)                        | [Rust](projects/rust)        |            |
-| break | [Oddities](notes/07-oddities.md)                        | MSFT PowerPoint (no proj.)   |            |
-| 03-26 | [Concurrent languages](notes/08-concurrent.md)          | Go (no proj.)                | [exam 1 assigned](exams/ex01) |
-| 04-02 | [Meta languages](notes/09-meta.md)                      | [Racket](projects/racket)    | [exam 1 due](exams/ex01)      |
-| 04-09 | [Parsing Languages](notes/10-parsing.md)                | [flex/bison](projects/flexbison)        |            |
-| 04-16 | [Declarative languages](notes/11-declarative.md)        | [SQLite](projects/sqlite)    |            |
-| 04-23 | [Esoteric languages](notes/12-esoteric.md)              | [INTERCAL](projects/intercal)        |            |
-| 04-30 | [Reflective programming](notes/13-reflective.md)        | [Befunge](projects/befunge)  |            |
-| 05-07 | [Applications](notes/14-ending.md)                      | --                           | [exam 2 assigned](exams/ex02) |
-| final | [Conclusion](notes/15-concl.md)                         | --                           | [exam 2 due](exams/ex02)      |
+| 02-05 | Procedural Languages                                    | COBOL									       |            |
+| 02-12 | REPL/Scripting                                          | Lua													 |			      |
+| 02-19 | Logic languages                                         | Prolog                       |            |
+| 02-26 | Stack-based language                                    | Forth                        |            |
+| 03-05 | Array programming                                       | J                            |            |
+| 03-12 | Security                                                | Rust                         |            |
+| break | Oddities                                                | MSFT PowerPoint (no proj.)   |            |
+| 03-26 | Concurrent languages                                    | Go (no proj.)                | exam 1 assigned |
+| 04-02 | Meta languages                                          | Racket                       | exam 1 due |
+| 04-09 | Parsing Languages                                       | flex/bison                   |            |
+| 04-16 | Declarative languages                                   | SQLite                       |            |
+| 04-23 | Esoteric languages                                      | INTERCAL                     |            |
+| 04-30 | Reflective programming                                  | Befunge                      |            |
+| 05-07 | Applications                                            | --                           | exam 2 assigned |
+| final | Conclusion                                              | --                           | exam 2 due |
 
 ## Evaluation
 

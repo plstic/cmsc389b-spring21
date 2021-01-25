@@ -1,11 +1,15 @@
 # Docker
 
+#TODO
+ Change push own docker image to dockerhub for a container a language
+
 For installation, see [docker.md](../guides/docker.md)
 
 Docker environment instructions. Docker has wonderful documentation that we highly encourage you to read [here](https://docs.docker.com/) if you are still confused. If you are still lost, reach out to us.
 
 ## Linux
 
+__to be changed, will confirm new instructions by first friday of semester__
 1. Run [`build.sh`](build.sh)
    * _Be patient while it builds_
    * This should build a new Docker image based on our `Dockerfile`, and tag it

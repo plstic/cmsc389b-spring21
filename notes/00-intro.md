@@ -29,8 +29,7 @@ The course looks as follows:
 * New topic every week
 * Associated language per topic
 * Associated project (almost) per language
-   - Assigned on the Friday that we learn the topic
-   - Due the following Friday
+   - Choose one every 2 weeks
 
 ## Grading
 
