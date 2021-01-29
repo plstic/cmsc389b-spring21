@@ -36,6 +36,7 @@ We will utilize a handful of services for this course:
 | Panopto     | lecture videos | <https://umd.instructure.com/courses/1302555/external_tools/28827> |
 | GitHub      | syllabus, notes, assignments, exams | <https://github.com/plstic/cmsc389b-spring21> |
 | Gradescope  | submission of completed work | <https://www.gradescope.com/courses/237145/> |
+| Piazza      | piazza | https://umd.instructure.com/courses/1302555/external_tools/42711 |
 
 Additionally, we are endorsing [Docker](https://www.docker.com/) and [VSCode](https://code.visualstudio.com/) for this course.
 We strongly recommend that you use both (industry-standard) applications to complete your assignments.
