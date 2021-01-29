@@ -38,5 +38,5 @@ main:
 1. `cd src && touch test.txt`
 1. ensure that a new `test.txt` file was created _on your host OS_
 1. try out python 
-  * windows: `echo "print('Hello, World!')" | python3`
-  * linux: `python3 -c 'print("Hello, World!")`
+   * windows: `echo "print('Hello, World!')" | python3`
+   * linux: `python3 -c 'print("Hello, World!")`
