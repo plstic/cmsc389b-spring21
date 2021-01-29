@@ -37,4 +37,6 @@ main:
    * linux: `docker run -it --rm -v $PWD/src:/src docker.pkg.github.com/plstic/cmsc389b-spring21/base:latest`
 1. `cd src && touch test.txt`
 1. ensure that a new `test.txt` file was created _on your host OS_
-1. try out python `echo "print('Hello, World!')" | python3`
+1. try out python 
+  * windows: `echo "print('Hello, World!')" | python3`
+  * linux: `python3 -c 'print("Hello, World!")`
