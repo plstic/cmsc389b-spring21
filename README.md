@@ -70,30 +70,30 @@ We intend to offer written and video tutorials for both git and Docker.
 
 ## Assignments
 
-We offer projects for each language however you only will need to choose 1 project roughly every two weeks.
+We offer projects for (almost) every language, however you are only required to do 1 project roughly every two weeks.
 That is, we will offer 2 projects every two weeks, and you choose to do one of them.
 Projects are grouped into the following:
 
-1. Project 1
+1. Group 1
 	+ COBOL
 	+ Lua
-2. Project 2
+2. Group 2
 	+ Prolog
 	+ Forth
-3. Project 3
+3. Group 3
 	+ J
 	+ Rust
-4. Project 4
+4. Group 4
 	+ Racket
 	+ Flex/Bison
-5. Project 5
+5. Group 5
 	+ SQlite
-6. Project 6
+6. Group 6
 	+ INTERCAL
 	+ Befunge
 
-As you can see, you get to choose between two projects with the exception of project 5: SQlite.
-You will have two weeks to complete each project. 
+As you can see, for each group, you get to choose between two projects (with the exception of group 5: SQlite).
+
 We encourage discussion with classmates about the projects, however sharing code is strictly prohibited.
 You may discuss strategies and approaches, but submission of shared code is considered cheating and a violation of academic integrity.
 
@@ -122,7 +122,8 @@ This is only one example, and if you have any questions as to what constitutes h
 You are not allowed to share or publicly post your project solutions online or in-person.
 Doing so constitutes a violation of academic integrity, and will be handled accordingly.
 
-**You have two non-transferable and non-refundable, 24-hour extension tokens which you can use at any point for any assignment.** This **does NOT** include exams.
+**You have two non-transferable and non-refundable, 24-hour extension tokens which you can use at any point for any assignment.**
+This **does NOT** include exams.
 
 ## Exams
 
