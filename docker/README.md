@@ -1,36 +1,40 @@
-# Docker
+# how to run
 
-#TODO
- Change push own docker image to dockerhub for a container a language
+Step 0: make sure you have docker installed.
 
-For installation, see [docker.md](../guides/docker.md)
+## prelim
 
-Docker environment instructions. Docker has wonderful documentation that we highly encourage you to read [here](https://docs.docker.com/) if you are still confused. If you are still lost, reach out to us.
+github token:
+1. ensure you have a github account
+1. open github
+1. click your profile drop-down
+1. click settings
+1. click developer settings
+1. click personal access tokens
+1. click generate new token
+1. give your token a name, then click the checkbox next to "read:packages"
+   * note that you can apply other permissions, but at the very least you need "read:packages"
+1. click generate token
+1. when the page loads, copy the provided value
+   * note that you will never be able to see this value on github again, so copy it down if you want (but keep it in a secure place)
+1. open up a terminal, type `docker login https://docker.pkg.github.com -u YOUR-GITHUB-USERNAME` and paste that token as the password when docker prompts for a password
+   * replace `YOUR-GITHUB-USERNAME` with your actual github username
 
-## Linux
+file sharing:
+1. open docker desktop (if applicable)
+1. click RESOURCES
+1. click FILE SHARING
+1. add your computer's root directory
+   * windows: "C:\"
+   * linux: "/" (if applicable)
 
-__to be changed, will confirm new instructions by first friday of semester__
-1. Run [`build.sh`](build.sh)
-   * _Be patient while it builds_
-   * This should build a new Docker image based on our `Dockerfile`, and tag it
-   `cmsc389b`
-2. Run [`run.sh`](run.sh), which will create and run a container based on the 
-`cmsc389b` image
+## running
 
-Docker is like a VM and you can have a shared drive between your docker 
-container and your host system. The default location after running the `run.sh`
-script is `./src` however you can supply a path to whichever folder you want as 
-a command line argument. 
-
-## Windows
-
-1. Run [`build.bat`](build.bat)
-   * _Be patient while it builds_
-   * This should build a new Docker image based on our `Dockerfile`, and tag it `cmsc389b`
-1. Run [`run.bat`](run.bat), which will create and run a container based on the `cmsc389b` image
-
-**Note**: if you start your Docker container using Docker Desktop, then your shell will be `/bin/sh`. If you do not want this, run `/bin/bash` in the open terminal window, or just use `run.bat`.
-
-## macOS
-
-Follow Windows instructions, but run the linux scripts instead.
+main:
+1. create a `/src` folder on your host OS -- put your code in there
+1. run the image
+   * windows: `docker run -it --rm -v "%cd%"\src:/src docker.pkg.github.com/plstic/cmsc389b-spring21/base:latest`
+   * linux: `docker run -it --rm -v $PWD/src:/src docker.pkg.github.com/plstic/cmsc389b-spring21/base:latest`
+1. `cd src && touch test.txt`
+1. ensure that a new `test.txt` file was created _on your host OS_
+1. try out python `echo "print('Hello, World!')" | python3`
