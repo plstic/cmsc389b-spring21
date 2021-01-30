@@ -2,28 +2,7 @@
 
 ## Installation
 
-### Windows
-
-So you use _Windows_, eh?
-
-### Linux
-
-You can use which ever package manager your distro has to install docker. I'm 
-sure many of you use apt so you can probably just run `sudo apt-get install 
-docker` to install. Arch users can just run `sudo pacman -S docker`. For others
-or if the usual install does mthod does not work you can check 
-![the documentation](https://hub.docker.com/search?q=&type=edition&offering=community&operating_system=linux).
-
-__this may change, will be confirmed first Friday of the semester__
-Once docker is installed, you need to download the OS we will be using in this 
-class, arch linux. You can do that by running `sudo docker pull archlinux`
-
-You can then verify that it is installed on your system by runnign `sudo docker
-images`. 
-
-### Mac
-
-
+See [here](../docker/README.md).
 
 ## Usage
 
@@ -49,5 +28,5 @@ your local machine and the docker container. YOu can change what the shared
 folder is by adding a path to a folder you want to be shared as a command line
 argument to the run script.
 
-For more details, see the ![dcoker.mp4](docker.mp4) file for a tutorial on how
-it all works. 
+For more details, see the our Docker Panopto video for a tutorial on how
+it all works.
