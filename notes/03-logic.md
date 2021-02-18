@@ -149,7 +149,7 @@ recieve such a proposition back.
 A rule is a declarion that some fact is dependent on something else, whether it 
 be a fact or a group of facts. In English, we may use a word like *if* to denote
 a rule. We saw this earlier about sisters and the sharing a parent: 
-`sisters(X,Y) := parent(Z,X), parent(Z,Y).`.  
+`sisters(X,Y) :- parent(Z,X), parent(Z,Y).`.  
 
 ### Procedures 
 
