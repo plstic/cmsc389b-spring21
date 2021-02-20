@@ -18,7 +18,7 @@ You will be implementing binary search on a BST in gforth.
 
 #### Testing and Submitting
 
-You will submit this project to [gradescope](https://www.gradescope.com/courses/172268).
+You will submit this project to gradescope.
 You may only submit the `tree.fs` file. To test locally, run 
 `python run_tests`. 
 

@@ -17,6 +17,5 @@ We have _recommendations_, but you can use whatever you like to actually _write_
 
 ## Project retrieval and submission
 
-Projects should be cloned from our GitHub Classroom.
-Submission is simple -- push your code solution to your cloned repository before the due-date!
-TODO : we may change this to Gradescope submissions.
+Projects should be cloned from our GitHub repository.
+Submission is simple -- upload your code to our class Gradescope.

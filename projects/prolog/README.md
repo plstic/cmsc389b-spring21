@@ -20,7 +20,7 @@ rudamentary AI which will solve a variation of the game.
 
 #### Testing and Submitting
 
-You will submit this project to [gradescope](https://www.gradescope.com/courses/172268).
+You will submit this project to gradescope.
 You may only submit the `wumpus.pl` and `hello.pl` files. To test locally, run 
 `make tests`. If there is no output then you have passed all the tests.
 

@@ -1,1 +1,1 @@
-sudo docker run -it --rm -e DISPLAY=$DISPLAY -v $PWD:/root docker.pkg.github.com/plstic/cmsc389b-spring21/forth:latest
+sudo docker run -it --rm -e DISPLAY=$DISPLAY -v $PWD:/src docker.pkg.github.com/plstic/cmsc389b-spring21/forth:latest
