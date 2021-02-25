@@ -177,7 +177,7 @@ and `false.` evaluates to `true.`.
 +	`;` - when checking for goal satisfaction, this will `or` the goals
 
 There are also a few built in procedures that you can find 
-![here](https://www.swi-prolog.org/pldoc/man?section=builtin).
+[here](https://www.swi-prolog.org/pldoc/man?section=builtin).
 
 To create a procedure with return value, you need to have the return value be 
 included in the procedure definition. Because prolog is basically dealing with 
