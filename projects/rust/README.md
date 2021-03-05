@@ -59,7 +59,7 @@ then do the following:
 ### Testing and Submitting
 
 You can run the tests with `cargo test`. This is Rust's testing framework. 
-You just need to submit `project.rs`. 
+You just need to submit `project.rs` and `sa.md` 
 
 + 15% Public Tests
 + 35% semipublic Tests
