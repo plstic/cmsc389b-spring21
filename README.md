@@ -49,10 +49,10 @@ We intend to offer written and video tutorials for both git and Docker.
 | 01-29 | [Introduction/Syllabus](notes/00-intro.md)              | --                           |            |
 | 02-05 | [Procedural Languages](notes/01-procedural.md)          | [COBOL](projects/cobol)      |            |
 | 02-12 | [REPL/Scripting](notes/02-scripting.md)                 | [Lua](projects/lua)          |            |
-| 02-19 | Logic languages                                         | Prolog                       |            |
-| 02-26 | Stack-based language                                    | Forth                        |            |
-| 03-05 | Array programming                                       | J                            |            |
-| 03-12 | Security                                                | Rust                         |            |
+| 02-19 | [Logic languages](notes/03-logic.md)                    | [Prolog](projects/prolog)    |            |
+| 02-26 | [Stack-based languages](notes/04-stack.md)              | [Forth](projects/forth)      |            |
+| 03-05 | [Array programming](notes/05-array.md)                  | [J](projects/j)              |            |
+| 03-12 | [Security](notes/06-security.md)                        | [Rust](projects/rust)        |            |
 | break | Oddities                                                | MSFT PowerPoint (no proj.)   |            |
 | 03-26 | Concurrent languages                                    | Go (no proj.)                | exam 1 assigned |
 | 04-02 | Meta languages                                          | Racket                       | exam 1 due |
