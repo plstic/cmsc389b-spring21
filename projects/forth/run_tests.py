@@ -17,8 +17,8 @@ def checkoutput(test_config):
   if errors == 0:
     print("All tests passed successfully");
         
-commands = ['gforth tree.fs public_tests.fs -e bye','gforth tree.fs private_tests.fs -e bye']
-solutions = ['public-sols','private-sols']
+commands = ['gforth tree.fs public_tests.fs -e bye']
+solutions = ['public-sols']
 removefiles = 'rm output'
 
 checkoutput(zip(commands,solutions))
