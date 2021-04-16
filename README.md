@@ -54,14 +54,14 @@ We intend to offer written and video tutorials for both git and Docker.
 | 03-05 | [Array programming](notes/05-array.md)                  | [J](projects/j)              |            |
 | 03-12 | [Security](notes/06-security.md)                        | [Rust](projects/rust)        |            |
 | break | [Oddities](notes/07-oddities.md)                        | MSFT PowerPoint (no proj.)   |            |
-| 03-26 | [Concurrent languages](08-concurrent.md)                | Go (no proj.)                | exam 1 assigned |
-| 04-02 | Meta languages                                          | Racket                       | exam 1 due |
-| 04-09 | Parsing Languages                                       | flex/bison                   |            |
-| 04-16 | Declarative languages                                   | SQLite                       |            |
-| 04-23 | Esoteric languages                                      | INTERCAL                     |            |
-| 04-30 | Reflective programming                                  | Befunge                      |            |
-| 05-07 | Applications                                            | --                           | exam 2 assigned |
-| final | Conclusion                                              | --                           | exam 2 due |
+| 03-26 | [Concurrent languages](notes/08-concurrent.md)          | Go (no proj.)                | [exam 1 assigned](exams/ex01) |
+| 04-02 | [Meta languages](notes/09-meta.md)                      | [Racket](projects/racket)    | [exam 1 due](exams/ex01) |
+| 04-09 | [Parsing Languages](notes/10-parsing.md)                | [flex/bison](projects/flexbison) |            |
+| 04-16 | [Declarative languages](notes/11-declarative.md)        | [SQLite](projects/sqlite)    |            |
+| 04-23 | [Esoteric languages](notes/12-esoteric.md)              | [INTERCAL](projects/intercal)|            |
+| 04-30 | [Reflective programming](notes/13-reflective.md)        | [Befunge](projects/befunge)  |            |
+| 05-07 | [Applications](notes/14-ending.md)                      | --                           | [exam 2 assigned](exams/ex02) |
+| final | [Conclusion](notes/15-concl.md)                         | --                           | [exam 2 due](exams/ex02) |
 
 ## Evaluation
 
