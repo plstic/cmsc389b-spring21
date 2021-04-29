@@ -1,6 +1,6 @@
 # List Reversal
 
-Due 11/14 December 2020, 11:59pm EDT
+Due (unofficially) May 11th, (officially) May 14th, 11:59pm Eastern
 
 Points: 50 Public, 50 Semipublic
 
