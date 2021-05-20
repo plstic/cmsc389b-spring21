@@ -85,7 +85,7 @@ In this class we are going to use a Look Ahead Left to Right Parser (LALR).
 This just means we will be looking ahead with only one token, parsing left-to-right,
 with the right-most-derivation.
 
-### Interpreter
+### Interpreter/Converter
 
 Once we have the immediate representation we can start looking at the structure
 or any flags in the intermediate representation to help determine the meaning of
@@ -95,7 +95,10 @@ represent a question or inquiry, a proper evaluation would be 'yes' (or no). For
 the second structure, a potential response could be NULL as we are assigning a 
 value to a variable. In this class we will be building a calculator so when 
 given a mathematical expression, you will be returning what the expression 
-evaluates to. 
+evaluates to, or an equivalent expression. 
+
+Tecnically an interpreter will execute commands, like the python interpreter, 
+but here I use it to talk about interpreting what we want to compile down. 
 
 ## Flex and Bison
 
